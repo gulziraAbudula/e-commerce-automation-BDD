@@ -1,0 +1,722 @@
+[ERROR] 2026-01-05 10:28:34.586 [main] Log4jManager - Homepage load verification failed: Cannot invoke "com.automation.ecommerceBDD.utilities.webActionRelated.WaitUtil.waitForVisibility(org.openqa.selenium.WebElement)" because "this.waitUtil" is null
+[ERROR] 2026-01-05 10:50:12.726 [main] Log4jManager - Homepage load verification failed: Cannot invoke "com.automation.ecommerceBDD.utilities.webActionRelated.WaitUtil.waitForVisibility(org.openqa.selenium.WebElement)" because "this.waitUtil" is null
+[INFO ] 2026-01-05 11:09:14.119 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 11:09:16.020 [main] Log4jManager - User clicked Signup/Login button
+[INFO ] 2026-01-05 11:10:48.758 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 11:10:50.881 [main] Log4jManager - User clicked Signup/Login button
+[INFO ] 2026-01-05 11:29:05.562 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 11:29:07.462 [main] Log4jManager - User clicked Signup/Login button
+[ERROR] 2026-01-05 11:29:07.470 [main] Log4jManager - Failed to verify 'New User Signup!' message: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
+[INFO ] 2026-01-05 11:33:21.182 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 11:33:23.621 [main] Log4jManager - User clicked Signup/Login button
+[INFO ] 2026-01-05 11:33:23.694 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 11:33:23.718 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 11:33:23.867 [main] Log4jManager - User entered signup name: John
+[INFO ] 2026-01-05 11:33:23.968 [main] Log4jManager - User entered signup email: john.doe@example.com
+[INFO ] 2026-01-05 11:33:25.289 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 11:33:50.207 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 11:33:52.210 [main] Log4jManager - User clicked Signup/Login button
+[INFO ] 2026-01-05 11:33:52.249 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 11:33:52.272 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 11:33:52.414 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 11:33:52.526 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 11:33:52.596 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 11:38:45.745 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 11:38:47.803 [main] Log4jManager - User clicked Signup/Login button
+[INFO ] 2026-01-05 11:38:47.946 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 11:38:47.986 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 11:38:48.171 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 11:38:48.276 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 11:38:48.439 [main] Log4jManager - User clicked signup button
+[ERROR] 2026-01-05 11:39:50.148 [main] Log4jManager - Failed to verify 'New User Signup!' message: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h2[contains(text(), 'New User Signup!')]' (tried for 3 second(s) with 500 milliseconds interval)
+[INFO ] 2026-01-05 11:43:08.664 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 11:43:10.763 [main] Log4jManager - User clicked Signup/Login button
+[INFO ] 2026-01-05 11:43:10.786 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 11:43:10.833 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 11:43:10.991 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 11:43:11.104 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 11:43:11.159 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 11:43:12.774 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 11:43:12.854 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 11:43:12.925 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 11:43:13.006 [main] Log4jManager - User selected day: 15
+[ERROR] 2026-01-05 11:43:43.117 [main] Log4jManager - Failed to select month: Cannot locate option with value: January
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.1', java.version: '21.0.2'
+Driver info: driver.version: unknown
+[ERROR] 2026-01-05 11:43:43.118 [main] Log4jManager - Failed to fill account information: Select month failed
+[INFO ] 2026-01-05 11:48:42.341 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 11:48:44.669 [main] Log4jManager - User clicked Signup/Login button
+[INFO ] 2026-01-05 11:48:44.724 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 11:48:44.750 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 11:48:44.914 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 11:48:45.026 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 11:48:45.090 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 11:48:46.209 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 11:48:46.288 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 11:48:46.372 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 11:48:46.467 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 11:48:46.531 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 11:48:46.597 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 11:48:46.597 [main] Log4jManager - Account information filled successfully!
+[ERROR] 2026-01-05 11:48:47.699 [main] Log4jManager - Failed to select newsletter checkbox: element click intercepted: Element <input type="checkbox" name="newsletter" id="newsletter" value="1"> is not clickable at point (270, 680). Other element would receive the click: <iframe id="aswift_1" name="aswift_1" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20251211/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271801&amp;client=ca-pub-1677597403311019&amp;fa=1&amp;ifi=2&amp;uci=a!2&amp;btvi=1" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CM7Y0qjt9JEDFRQQRAgdNREEbg" data-load-complete="true"></iframe>
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.1', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ee6520ec6516830896ad121289622f9, clickElement {id=f.E2DA4F2E193C47CF2D2A2E2E78BB95AE.d.8D07A81F0E223781C02BDD94F041DCB4.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/lx/_z2b34nn1tv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53868}, goog:processID: 26631, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53868/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (6ee6520ec6516830896ad121289622f9)] -> xpath: //input[@id='newsletter']]
+Session ID: 6ee6520ec6516830896ad121289622f9
+[INFO ] 2026-01-05 12:00:21.037 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 12:00:23.693 [main] Log4jManager - User clicked Signup/Login button
+[INFO ] 2026-01-05 12:00:23.761 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 12:00:23.789 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 12:00:23.988 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 12:00:24.086 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 12:00:24.140 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 12:00:24.836 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 12:00:24.940 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 12:00:25.043 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 12:00:25.142 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 12:00:25.231 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 12:00:25.301 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 12:00:25.301 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 12:00:25.312 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 12:00:25.318 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 12:00:25.328 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 12:00:25.335 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 12:00:25.344 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 12:00:25.351 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 12:00:25.357 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 12:00:25.364 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 12:00:25.449 [main] Log4jManager - User entered first name: John
+[INFO ] 2026-01-05 12:00:25.520 [main] Log4jManager - User entered last name: Doe
+[INFO ] 2026-01-05 12:00:25.584 [main] Log4jManager - User entered company: Tech Corp
+[INFO ] 2026-01-05 12:00:25.651 [main] Log4jManager - User entered address: 123 Main Street
+[INFO ] 2026-01-05 12:00:25.717 [main] Log4jManager - User entered address line 2: Suite 100
+[INFO ] 2026-01-05 12:00:25.783 [main] Log4jManager - User selected country: United States
+[INFO ] 2026-01-05 12:00:25.850 [main] Log4jManager - User entered state: California
+[INFO ] 2026-01-05 12:00:25.913 [main] Log4jManager - User entered city: San Francisco
+[INFO ] 2026-01-05 12:00:25.976 [main] Log4jManager - User entered zip code: 94102
+[INFO ] 2026-01-05 12:00:26.039 [main] Log4jManager - User entered mobile number: +1-415-555-0123
+[INFO ] 2026-01-05 12:00:26.039 [main] Log4jManager - Address details filled successfully!
+[ERROR] 2026-01-05 12:00:27.108 [main] Log4jManager - Failed to click Create Account button: element click intercepted: Element <button type="submit" data-qa="create-account" class="btn btn-default">...</button> is not clickable at point (335, 726). Other element would receive the click: <iframe id="aswift_1" name="aswift_1" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20251211/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271801&amp;client=ca-pub-1677597403311019&amp;fa=1&amp;ifi=2&amp;uci=a!2&amp;btvi=1" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CMKZ_fXv9JEDFeoxRAgdBMQmnw" data-load-complete="true"></iframe>
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.1', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4762cad4fe84092fbdddac4b6e6378f4, clickElement {id=f.93601EA63187477C6EEA53A741995F2B.d.FCA8B04252F036B56A84224F8BAF2FE4.e.89}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/lx/_z2b34nn1tv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56924}, goog:processID: 26730, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56924/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (4762cad4fe84092fbdddac4b6e6378f4)] -> xpath: //button[contains(text(), 'Create Account')]]
+Session ID: 4762cad4fe84092fbdddac4b6e6378f4
+[INFO ] 2026-01-05 12:03:54.735 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 12:03:57.332 [main] Log4jManager - User clicked Signup/Login button
+[INFO ] 2026-01-05 12:03:57.394 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 12:03:57.419 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 12:03:57.568 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 12:03:57.668 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 12:03:57.723 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 12:03:59.106 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 12:03:59.186 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 12:03:59.273 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 12:03:59.356 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 12:03:59.422 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 12:03:59.496 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 12:03:59.496 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 12:03:59.557 [main] Log4jManager - User selected newsletter checkbox
+[ERROR] 2026-01-05 12:04:00.636 [main] Log4jManager - Failed to select special offers checkbox: element click intercepted: Element <input type="checkbox" name="optin" id="optin" value="1"> is not clickable at point (270, 673). Other element would receive the click: <iframe id="aswift_1" name="aswift_1" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20251211/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271801&amp;client=ca-pub-1677597403311019&amp;fa=1&amp;ifi=2&amp;uci=a!2&amp;btvi=1" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CP-c7Nvw9JEDFW2CYQYdQZkfSw" data-load-complete="true"></iframe>
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.1', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [633e065d9e22f067f592be006a38323b, clickElement {id=f.A13A978F891644092664090F667729E1.d.EF41035AA75F483DFABBF55BD0BCD190.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/lx/_z2b34nn1tv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57887}, goog:processID: 26828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57887/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (633e065d9e22f067f592be006a38323b)] -> xpath: //input[@id='optin']]
+Session ID: 633e065d9e22f067f592be006a38323b
+[INFO ] 2026-01-05 12:50:26.822 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 12:50:28.144 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 12:50:28.145 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 12:50:28.213 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 12:50:28.236 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 12:50:28.397 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 12:50:28.524 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 12:50:28.748 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 12:50:28.749 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 12:50:28.787 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 12:50:28.839 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 12:50:28.932 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 12:50:29.025 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 12:50:29.096 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 12:50:29.159 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 12:50:29.159 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 12:50:29.222 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 12:50:29.550 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 12:50:29.551 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 12:50:29.625 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 12:50:29.953 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 12:50:29.954 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 12:50:30.018 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 12:50:30.371 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 12:50:30.371 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 12:50:30.430 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 12:50:30.762 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 12:50:30.763 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 12:50:30.828 [main] Log4jManager - User entered first name: John
+[INFO ] 2026-01-05 12:50:30.891 [main] Log4jManager - User entered last name: Doe
+[INFO ] 2026-01-05 12:50:30.954 [main] Log4jManager - User entered company: Tech Corp
+[INFO ] 2026-01-05 12:50:31.016 [main] Log4jManager - User entered address: 123 Main Street
+[INFO ] 2026-01-05 12:50:31.074 [main] Log4jManager - User entered address line 2: Suite 100
+[INFO ] 2026-01-05 12:50:31.134 [main] Log4jManager - User selected country: United States
+[INFO ] 2026-01-05 12:50:31.198 [main] Log4jManager - User entered state: California
+[INFO ] 2026-01-05 12:50:31.259 [main] Log4jManager - User entered city: San Francisco
+[INFO ] 2026-01-05 12:50:31.320 [main] Log4jManager - User entered zip code: 94102
+[INFO ] 2026-01-05 12:50:31.384 [main] Log4jManager - User entered mobile number: +1-415-555-0123
+[INFO ] 2026-01-05 12:50:31.385 [main] Log4jManager - Address details filled successfully!
+[INFO ] 2026-01-05 12:50:31.407 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 12:50:32.844 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 12:50:32.844 [main] Log4jManager - User clicked Create Account button
+[INFO ] 2026-01-05 12:50:32.882 [main] Log4jManager - 'ACCOUNT CREATED!' message is visible successfully!
+[INFO ] 2026-01-05 12:50:34.993 [main] Log4jManager - User clicked Continue button
+[ERROR] 2026-01-05 12:51:35.166 [main] Log4jManager - Failed to verify 'Logged in as' message: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //li/b[contains(text(), 'Logged in as')]' (tried for 3 second(s) with 500 milliseconds interval)
+[INFO ] 2026-01-05 12:59:43.126 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 12:59:44.342 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 12:59:44.342 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 12:59:44.415 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 12:59:44.437 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 12:59:44.578 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 12:59:44.672 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 12:59:44.894 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 12:59:44.894 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 13:01:34.113 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 13:01:35.985 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:01:35.986 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 13:01:36.037 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 13:01:36.063 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 13:01:36.282 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 13:01:36.366 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 13:01:36.678 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:01:36.679 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 13:01:36.714 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 13:01:36.765 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 13:01:36.835 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 13:01:36.912 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 13:01:36.976 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 13:01:37.039 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 13:01:37.039 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 13:01:37.096 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:01:37.422 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 13:01:37.422 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 13:01:37.489 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:01:37.803 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 13:01:37.803 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 13:01:37.862 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:01:38.205 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 13:01:38.205 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 13:01:38.260 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:01:38.609 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 13:01:38.609 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 13:01:38.678 [main] Log4jManager - User entered first name: John
+[INFO ] 2026-01-05 13:01:38.743 [main] Log4jManager - User entered last name: Doe
+[INFO ] 2026-01-05 13:01:38.803 [main] Log4jManager - User entered company: Tech Corp
+[INFO ] 2026-01-05 13:01:38.867 [main] Log4jManager - User entered address: 123 Main Street
+[INFO ] 2026-01-05 13:01:38.928 [main] Log4jManager - User entered address line 2: Suite 100
+[INFO ] 2026-01-05 13:01:38.990 [main] Log4jManager - User selected country: United States
+[INFO ] 2026-01-05 13:01:39.049 [main] Log4jManager - User entered state: California
+[INFO ] 2026-01-05 13:01:39.115 [main] Log4jManager - User entered city: San Francisco
+[INFO ] 2026-01-05 13:01:39.169 [main] Log4jManager - User entered zip code: 94102
+[INFO ] 2026-01-05 13:01:39.233 [main] Log4jManager - User entered mobile number: +1-415-555-0123
+[INFO ] 2026-01-05 13:01:39.233 [main] Log4jManager - Address details filled successfully!
+[INFO ] 2026-01-05 13:01:39.250 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 13:01:40.689 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:01:40.689 [main] Log4jManager - User clicked Create Account button
+[INFO ] 2026-01-05 13:01:40.710 [main] Log4jManager - 'ACCOUNT CREATED!' message is visible successfully!
+[INFO ] 2026-01-05 13:01:46.942 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:01:46.944 [main] Log4jManager - User clicked Continue button
+[ERROR] 2026-01-05 13:02:47.097 [main] Log4jManager - Failed to verify 'Logged in as' message: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //li/b[contains(text(), 'Logged in as')]' (tried for 3 second(s) with 500 milliseconds interval)
+[INFO ] 2026-01-05 13:03:58.976 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 13:04:00.348 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:04:00.348 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 13:04:00.374 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 13:04:00.414 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 13:04:00.569 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 13:04:00.639 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 13:04:00.851 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:04:00.851 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 13:04:26.602 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 13:04:27.910 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:04:27.910 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 13:04:27.959 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 13:04:27.983 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 13:04:28.133 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 13:04:28.239 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 13:04:28.301 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:04:28.301 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 13:04:28.541 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 13:04:28.614 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 13:04:28.684 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 13:04:28.753 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 13:04:28.815 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 13:04:28.879 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 13:04:28.879 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 13:04:28.938 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:04:29.267 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 13:04:29.267 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 13:04:29.336 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:04:29.666 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 13:04:29.666 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 13:04:29.734 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:04:30.075 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 13:04:30.075 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 13:04:30.134 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:04:30.488 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 13:04:30.488 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 13:04:30.555 [main] Log4jManager - User entered first name: John
+[INFO ] 2026-01-05 13:04:30.626 [main] Log4jManager - User entered last name: Doe
+[INFO ] 2026-01-05 13:04:30.683 [main] Log4jManager - User entered company: Tech Corp
+[INFO ] 2026-01-05 13:04:30.743 [main] Log4jManager - User entered address: 123 Main Street
+[INFO ] 2026-01-05 13:04:30.803 [main] Log4jManager - User entered address line 2: Suite 100
+[INFO ] 2026-01-05 13:04:30.868 [main] Log4jManager - User selected country: United States
+[INFO ] 2026-01-05 13:04:30.933 [main] Log4jManager - User entered state: California
+[INFO ] 2026-01-05 13:04:30.994 [main] Log4jManager - User entered city: San Francisco
+[INFO ] 2026-01-05 13:04:31.052 [main] Log4jManager - User entered zip code: 94102
+[INFO ] 2026-01-05 13:04:31.110 [main] Log4jManager - User entered mobile number: +1-415-555-0123
+[INFO ] 2026-01-05 13:04:31.110 [main] Log4jManager - Address details filled successfully!
+[INFO ] 2026-01-05 13:04:31.129 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 13:04:32.803 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:04:32.804 [main] Log4jManager - User clicked Create Account button
+[INFO ] 2026-01-05 13:04:32.840 [main] Log4jManager - 'ACCOUNT CREATED!' message is visible successfully!
+[INFO ] 2026-01-05 13:04:49.357 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:04:49.360 [main] Log4jManager - User clicked Continue button
+[ERROR] 2026-01-05 13:05:49.550 [main] Log4jManager - Failed to verify 'Logged in as' message: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //li/b[contains(text(), 'Logged in as')]' (tried for 3 second(s) with 500 milliseconds interval)
+[INFO ] 2026-01-05 13:14:21.781 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 13:14:23.291 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:14:23.291 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 13:14:23.340 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 13:14:23.363 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 13:14:23.496 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 13:14:23.593 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 13:14:23.817 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:14:23.817 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 13:14:48.463 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 13:14:49.729 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:14:49.730 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 13:14:49.756 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 13:14:49.811 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 13:14:49.953 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 13:14:50.058 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 13:14:50.279 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:14:50.279 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 13:14:50.334 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 13:14:50.387 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 13:14:50.465 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 13:14:50.550 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 13:14:50.613 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 13:14:50.676 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 13:14:50.676 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 13:14:50.736 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:14:51.064 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 13:14:51.065 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 13:14:51.130 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:14:51.456 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 13:14:51.456 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 13:14:51.521 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:14:51.871 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 13:14:51.872 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 13:14:51.928 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:14:52.279 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 13:14:52.279 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 13:14:52.351 [main] Log4jManager - User entered first name: John
+[INFO ] 2026-01-05 13:14:52.406 [main] Log4jManager - User entered last name: Doe
+[INFO ] 2026-01-05 13:14:52.471 [main] Log4jManager - User entered company: Tech Corp
+[INFO ] 2026-01-05 13:14:52.528 [main] Log4jManager - User entered address: 123 Main Street
+[INFO ] 2026-01-05 13:14:52.591 [main] Log4jManager - User entered address line 2: Suite 100
+[INFO ] 2026-01-05 13:14:52.654 [main] Log4jManager - User selected country: United States
+[INFO ] 2026-01-05 13:14:52.715 [main] Log4jManager - User entered state: California
+[INFO ] 2026-01-05 13:14:52.777 [main] Log4jManager - User entered city: San Francisco
+[INFO ] 2026-01-05 13:14:52.837 [main] Log4jManager - User entered zip code: 94102
+[INFO ] 2026-01-05 13:14:52.893 [main] Log4jManager - User entered mobile number: +1-415-555-0123
+[INFO ] 2026-01-05 13:14:52.893 [main] Log4jManager - Address details filled successfully!
+[INFO ] 2026-01-05 13:14:52.913 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 13:14:54.013 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:14:54.013 [main] Log4jManager - User clicked Create Account button
+[INFO ] 2026-01-05 13:14:54.061 [main] Log4jManager - 'ACCOUNT CREATED!' message is visible successfully!
+[INFO ] 2026-01-05 13:14:55.906 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:14:55.906 [main] Log4jManager - User clicked Continue button
+[ERROR] 2026-01-05 13:15:56.067 [main] Log4jManager - Failed to verify 'Logged in as' message: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //li/b[contains(text(), 'Logged in as')]' (tried for 3 second(s) with 500 milliseconds interval)
+[INFO ] 2026-01-05 13:19:21.826 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 13:19:23.093 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:19:23.094 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 13:19:23.147 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 13:19:23.172 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 13:19:23.312 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 13:19:23.407 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 13:19:23.467 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:19:23.467 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 13:19:53.154 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 13:19:53.370 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:19:53.371 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 13:19:53.407 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 13:19:53.430 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 13:19:53.560 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 13:19:54.684 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 13:19:54.907 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:19:54.907 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 13:19:54.962 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 13:19:55.012 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 13:19:55.082 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 13:19:55.158 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 13:19:55.227 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 13:19:55.291 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 13:19:55.291 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 13:19:55.350 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:19:55.674 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 13:19:55.674 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 13:19:55.747 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:19:56.065 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 13:19:56.065 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 13:19:56.127 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:19:56.477 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 13:19:56.477 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 13:19:56.531 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:19:56.889 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 13:19:56.889 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 13:19:56.972 [main] Log4jManager - User entered first name: John
+[INFO ] 2026-01-05 13:19:57.030 [main] Log4jManager - User entered last name: Doe
+[INFO ] 2026-01-05 13:19:57.088 [main] Log4jManager - User entered company: Tech Corp
+[INFO ] 2026-01-05 13:19:57.156 [main] Log4jManager - User entered address: 123 Main Street
+[INFO ] 2026-01-05 13:19:57.220 [main] Log4jManager - User entered address line 2: Suite 100
+[INFO ] 2026-01-05 13:19:57.281 [main] Log4jManager - User selected country: United States
+[INFO ] 2026-01-05 13:19:57.347 [main] Log4jManager - User entered state: California
+[INFO ] 2026-01-05 13:19:57.407 [main] Log4jManager - User entered city: San Francisco
+[INFO ] 2026-01-05 13:19:57.466 [main] Log4jManager - User entered zip code: 94102
+[INFO ] 2026-01-05 13:19:57.525 [main] Log4jManager - User entered mobile number: +1-415-555-0123
+[INFO ] 2026-01-05 13:19:57.525 [main] Log4jManager - Address details filled successfully!
+[INFO ] 2026-01-05 13:19:57.543 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 13:19:58.875 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:19:58.876 [main] Log4jManager - User clicked Create Account button
+[INFO ] 2026-01-05 13:19:58.923 [main] Log4jManager - 'ACCOUNT CREATED!' message is visible successfully!
+[INFO ] 2026-01-05 13:20:00.731 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:20:00.732 [main] Log4jManager - User clicked Continue button
+[INFO ] 2026-01-05 13:20:00.773 [main] Log4jManager - 'Logged in as Logged in as Johnaaaa' is visible successfully!
+[INFO ] 2026-01-05 13:21:05.822 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 13:21:07.082 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:21:07.083 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 13:21:07.127 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 13:21:07.155 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 13:21:07.297 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 13:21:07.379 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 13:21:07.434 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:21:07.434 [main] Log4jManager - User clicked signup button
+[ERROR] 2026-01-05 13:22:07.760 [main] Log4jManager - Failed to verify 'ENTER ACCOUNT INFORMATION' message: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h2/b[contains(text(), 'Enter Account Information')]' (tried for 3 second(s) with 500 milliseconds interval)
+[INFO ] 2026-01-05 13:41:13.153 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 13:41:14.477 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:41:14.477 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 13:41:14.536 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 13:41:14.559 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 13:41:14.701 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 13:41:14.802 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 13:41:14.865 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:41:14.865 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 13:41:15.058 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 13:41:15.128 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 13:41:15.195 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 13:41:15.268 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 13:41:15.329 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 13:41:15.392 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 13:41:15.392 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 13:41:15.450 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:41:15.777 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 13:41:15.777 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 13:41:15.841 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:41:16.170 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 13:41:16.170 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 13:41:16.236 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:41:16.578 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 13:41:16.578 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 13:41:16.633 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:41:16.974 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 13:41:16.974 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 13:41:17.057 [main] Log4jManager - User entered first name: John
+[INFO ] 2026-01-05 13:41:17.113 [main] Log4jManager - User entered last name: Doe
+[INFO ] 2026-01-05 13:41:17.173 [main] Log4jManager - User entered company: Tech Corp
+[INFO ] 2026-01-05 13:41:17.237 [main] Log4jManager - User entered address: 123 Main Street
+[INFO ] 2026-01-05 13:41:17.298 [main] Log4jManager - User entered address line 2: Suite 100
+[INFO ] 2026-01-05 13:41:17.362 [main] Log4jManager - User selected country: United States
+[INFO ] 2026-01-05 13:41:17.423 [main] Log4jManager - User entered state: California
+[INFO ] 2026-01-05 13:41:17.483 [main] Log4jManager - User entered city: San Francisco
+[INFO ] 2026-01-05 13:41:17.539 [main] Log4jManager - User entered zip code: 94102
+[INFO ] 2026-01-05 13:41:17.598 [main] Log4jManager - User entered mobile number: +1-415-555-0123
+[INFO ] 2026-01-05 13:41:17.598 [main] Log4jManager - Address details filled successfully!
+[INFO ] 2026-01-05 13:41:17.619 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 13:41:18.773 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:41:18.773 [main] Log4jManager - User clicked Create Account button
+[INFO ] 2026-01-05 13:41:18.796 [main] Log4jManager - 'ACCOUNT CREATED!' message is visible successfully!
+[INFO ] 2026-01-05 13:41:21.034 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:41:21.035 [main] Log4jManager - User clicked Continue button
+[INFO ] 2026-01-05 13:41:21.070 [main] Log4jManager - 'Logged in as Johnaaaa' is visible successfully!
+[INFO ] 2026-01-05 13:41:21.108 [main] Log4jManager - Logged in as Johnaaaa matched with Johnaaaa
+[INFO ] 2026-01-05 13:41:21.512 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:41:21.512 [main] Log4jManager - User clicked Delete Account button
+[INFO ] 2026-01-05 13:41:21.545 [main] Log4jManager - 'ACCOUNT DELETED!' message is visible successfully!
+[INFO ] 2026-01-05 13:41:27.475 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 13:41:27.476 [main] Log4jManager - User clicked Continue button
+[INFO ] 2026-01-05 14:05:03.327 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 14:05:04.620 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:05:04.620 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 14:05:04.663 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 14:05:04.689 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 14:05:04.853 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 14:05:04.929 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 14:05:05.152 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:05:05.152 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 14:05:05.203 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 14:05:05.252 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 14:05:05.325 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 14:05:05.401 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 14:05:05.475 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 14:05:05.537 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 14:05:05.537 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 14:05:05.596 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:05:05.919 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 14:05:05.920 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 14:05:05.983 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:05:06.313 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 14:05:06.314 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 14:05:06.374 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:05:06.717 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 14:05:06.717 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 14:05:06.773 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:05:07.107 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 14:05:07.107 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 14:05:07.173 [main] Log4jManager - User entered first name: John
+[INFO ] 2026-01-05 14:05:07.241 [main] Log4jManager - User entered last name: Doe
+[INFO ] 2026-01-05 14:05:07.300 [main] Log4jManager - User entered company: Tech Corp
+[INFO ] 2026-01-05 14:05:07.359 [main] Log4jManager - User entered address: 123 Main Street
+[INFO ] 2026-01-05 14:05:07.417 [main] Log4jManager - User entered address line 2: Suite 100
+[INFO ] 2026-01-05 14:05:07.477 [main] Log4jManager - User selected country: United States
+[INFO ] 2026-01-05 14:05:07.542 [main] Log4jManager - User entered state: California
+[INFO ] 2026-01-05 14:05:07.599 [main] Log4jManager - User entered city: San Francisco
+[INFO ] 2026-01-05 14:05:07.659 [main] Log4jManager - User entered zip code: 94102
+[INFO ] 2026-01-05 14:05:07.716 [main] Log4jManager - User entered mobile number: +1-415-555-0123
+[INFO ] 2026-01-05 14:05:07.716 [main] Log4jManager - Address details filled successfully!
+[INFO ] 2026-01-05 14:05:07.739 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 14:05:08.849 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:05:08.851 [main] Log4jManager - User clicked Create Account button
+[INFO ] 2026-01-05 14:05:08.960 [main] Log4jManager - 'ACCOUNT CREATED!' message is visible successfully!
+[INFO ] 2026-01-05 14:05:11.152 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:05:11.153 [main] Log4jManager - User clicked Continue button
+[INFO ] 2026-01-05 14:05:11.213 [main] Log4jManager - 'Logged in as Johnaaaa' is visible successfully!
+[INFO ] 2026-01-05 14:05:11.233 [main] Log4jManager - Logged in as Johnaaaa matched with Johnaaaa
+[INFO ] 2026-01-05 14:05:11.459 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:05:11.459 [main] Log4jManager - User clicked Delete Account button
+[INFO ] 2026-01-05 14:05:11.486 [main] Log4jManager - 'ACCOUNT DELETED!' message is visible successfully!
+[INFO ] 2026-01-05 14:05:17.514 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:05:17.514 [main] Log4jManager - User clicked Continue button
+[INFO ] 2026-01-05 14:09:28.966 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 14:09:30.344 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:09:30.344 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 14:09:30.392 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 14:09:30.423 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 14:09:30.564 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 14:09:30.635 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 14:09:30.855 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:09:30.855 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 14:09:30.878 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 14:09:30.948 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 14:09:31.036 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 14:09:31.106 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 14:09:31.165 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 14:09:31.229 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 14:09:31.229 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 14:09:31.287 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:09:31.610 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 14:09:31.610 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 14:09:31.676 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:09:32.014 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 14:09:32.015 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 14:09:32.080 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:09:32.419 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 14:09:32.420 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 14:09:32.474 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:09:32.823 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 14:09:32.823 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 14:09:32.891 [main] Log4jManager - User entered first name: John
+[INFO ] 2026-01-05 14:09:32.958 [main] Log4jManager - User entered last name: Doe
+[INFO ] 2026-01-05 14:09:33.019 [main] Log4jManager - User entered company: Tech Corp
+[INFO ] 2026-01-05 14:09:33.089 [main] Log4jManager - User entered address: 123 Main Street
+[INFO ] 2026-01-05 14:09:33.152 [main] Log4jManager - User entered address line 2: Suite 100
+[INFO ] 2026-01-05 14:09:33.226 [main] Log4jManager - User selected country: United States
+[INFO ] 2026-01-05 14:09:33.314 [main] Log4jManager - User entered state: California
+[INFO ] 2026-01-05 14:09:33.382 [main] Log4jManager - User entered city: San Francisco
+[INFO ] 2026-01-05 14:09:33.438 [main] Log4jManager - User entered zip code: 94102
+[INFO ] 2026-01-05 14:09:33.498 [main] Log4jManager - User entered mobile number: +1-415-555-0123
+[INFO ] 2026-01-05 14:09:33.498 [main] Log4jManager - Address details filled successfully!
+[INFO ] 2026-01-05 14:09:33.517 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 14:09:34.662 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:09:34.663 [main] Log4jManager - User clicked Create Account button
+[INFO ] 2026-01-05 14:09:34.697 [main] Log4jManager - 'ACCOUNT CREATED!' message is visible successfully!
+[INFO ] 2026-01-05 14:09:37.479 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:09:37.480 [main] Log4jManager - User clicked Continue button
+[INFO ] 2026-01-05 14:09:37.507 [main] Log4jManager - 'Logged in as Johnaaaa' is visible successfully!
+[INFO ] 2026-01-05 14:09:37.548 [main] Log4jManager - Logged in as Johnaaaa matched with Johnaaaa
+[INFO ] 2026-01-05 14:09:37.805 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:09:37.805 [main] Log4jManager - User clicked Delete Account button
+[INFO ] 2026-01-05 14:09:37.832 [main] Log4jManager - 'ACCOUNT DELETED!' message is visible successfully!
+[INFO ] 2026-01-05 14:09:44.364 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:09:44.365 [main] Log4jManager - User clicked Continue button
+[INFO ] 2026-01-05 14:15:43.407 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 14:15:44.933 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:15:44.936 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 14:15:45.002 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 14:15:45.038 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 14:15:45.207 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 14:15:45.278 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 14:15:45.339 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:15:45.340 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 14:15:45.528 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 14:15:45.606 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 14:15:45.677 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 14:15:45.747 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 14:15:45.815 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 14:15:45.878 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 14:15:45.878 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 14:15:45.936 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:15:46.255 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 14:15:46.255 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 14:15:46.316 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:15:46.644 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 14:15:46.645 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 14:15:46.711 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:15:47.059 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 14:15:47.060 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 14:15:47.116 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:15:47.452 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 14:15:47.452 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 14:15:47.517 [main] Log4jManager - User entered first name: John
+[INFO ] 2026-01-05 14:15:47.581 [main] Log4jManager - User entered last name: Doe
+[INFO ] 2026-01-05 14:15:47.658 [main] Log4jManager - User entered company: Tech Corp
+[INFO ] 2026-01-05 14:15:47.730 [main] Log4jManager - User entered address: 123 Main Street
+[INFO ] 2026-01-05 14:15:47.793 [main] Log4jManager - User entered address line 2: Suite 100
+[INFO ] 2026-01-05 14:15:47.863 [main] Log4jManager - User selected country: United States
+[INFO ] 2026-01-05 14:15:47.923 [main] Log4jManager - User entered state: California
+[INFO ] 2026-01-05 14:15:47.990 [main] Log4jManager - User entered city: San Francisco
+[INFO ] 2026-01-05 14:15:48.055 [main] Log4jManager - User entered zip code: 94102
+[INFO ] 2026-01-05 14:15:48.121 [main] Log4jManager - User entered mobile number: +1-415-555-0123
+[INFO ] 2026-01-05 14:15:48.121 [main] Log4jManager - Address details filled successfully!
+[INFO ] 2026-01-05 14:15:48.142 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 14:15:49.233 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:15:49.233 [main] Log4jManager - User clicked Create Account button
+[INFO ] 2026-01-05 14:15:49.256 [main] Log4jManager - 'ACCOUNT CREATED!' message is visible successfully!
+[INFO ] 2026-01-05 14:15:52.591 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:15:52.592 [main] Log4jManager - User clicked Continue button
+[INFO ] 2026-01-05 14:15:52.632 [main] Log4jManager - 'Logged in as Johnaaaa' is visible successfully!
+[INFO ] 2026-01-05 14:15:52.651 [main] Log4jManager - Logged in as Johnaaaa matched with Johnaaaa
+[INFO ] 2026-01-05 14:15:52.887 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:15:52.888 [main] Log4jManager - User clicked Delete Account button
+[INFO ] 2026-01-05 14:15:52.911 [main] Log4jManager - 'ACCOUNT DELETED!' message is visible successfully!
+[INFO ] 2026-01-05 14:25:49.014 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 14:25:49.263 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:25:49.264 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 14:25:49.286 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 14:25:49.318 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 14:25:49.456 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 14:25:49.552 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 14:25:49.620 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:25:49.620 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 14:25:49.814 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 14:25:49.876 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 14:25:49.970 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 14:25:50.044 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 14:25:50.106 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 14:25:50.165 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 14:25:50.165 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 14:25:50.224 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:25:50.548 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 14:25:50.548 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 14:25:50.614 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:25:50.940 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 14:25:50.940 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 14:25:51.006 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:25:51.354 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 14:25:51.355 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 14:25:51.410 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:25:51.756 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 14:25:51.756 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 14:25:51.825 [main] Log4jManager - User entered first name: John
+[INFO ] 2026-01-05 14:25:51.880 [main] Log4jManager - User entered last name: Doe
+[INFO ] 2026-01-05 14:25:51.937 [main] Log4jManager - User entered company: Tech Corp
+[INFO ] 2026-01-05 14:25:52.005 [main] Log4jManager - User entered address: 123 Main Street
+[INFO ] 2026-01-05 14:25:52.064 [main] Log4jManager - User entered address line 2: Suite 100
+[INFO ] 2026-01-05 14:25:52.121 [main] Log4jManager - User selected country: United States
+[INFO ] 2026-01-05 14:25:52.190 [main] Log4jManager - User entered state: California
+[INFO ] 2026-01-05 14:25:52.249 [main] Log4jManager - User entered city: San Francisco
+[INFO ] 2026-01-05 14:25:52.312 [main] Log4jManager - User entered zip code: 94102
+[INFO ] 2026-01-05 14:25:52.370 [main] Log4jManager - User entered mobile number: +1-415-555-0123
+[INFO ] 2026-01-05 14:25:52.370 [main] Log4jManager - Address details filled successfully!
+[INFO ] 2026-01-05 14:25:52.390 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 14:25:53.547 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:25:53.547 [main] Log4jManager - User clicked Create Account button
+[INFO ] 2026-01-05 14:25:53.568 [main] Log4jManager - 'ACCOUNT CREATED!' message is visible successfully!
+[INFO ] 2026-01-05 14:25:55.481 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:25:55.482 [main] Log4jManager - User clicked Continue button
+[INFO ] 2026-01-05 14:25:55.526 [main] Log4jManager - 'Logged in as Johnaaaa' is visible successfully!
+[INFO ] 2026-01-05 14:25:55.544 [main] Log4jManager - Logged in as Johnaaaa matched with Johnaaaa
+[INFO ] 2026-01-05 14:25:55.817 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:25:55.817 [main] Log4jManager - User clicked Delete Account button
+[INFO ] 2026-01-05 14:25:55.869 [main] Log4jManager - 'ACCOUNT DELETED!' message is visible successfully!
+[INFO ] 2026-01-05 14:25:59.282 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:25:59.283 [main] Log4jManager - User clicked Continue button
+[INFO ] 2026-01-05 14:26:38.150 [main] Log4jManager - Homepage loaded successfully with all key elements visible!
+[INFO ] 2026-01-05 14:26:39.390 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:26:39.391 [main] Log4jManager - User clicked Signup Login button
+[INFO ] 2026-01-05 14:26:39.438 [main] Log4jManager - 'New User Signup!' message is visible successfully!
+[INFO ] 2026-01-05 14:26:39.465 [main] Log4jManager - New User Signup! matched with New User Signup!
+[INFO ] 2026-01-05 14:26:39.602 [main] Log4jManager - User entered signup name: Johnaaaa
+[INFO ] 2026-01-05 14:26:39.701 [main] Log4jManager - User entered signup email: john.doeaaaaa@example.com
+[INFO ] 2026-01-05 14:26:39.946 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:26:39.946 [main] Log4jManager - User clicked signup button
+[INFO ] 2026-01-05 14:26:39.968 [main] Log4jManager - 'ENTER ACCOUNT INFORMATION' message is visible successfully!
+[INFO ] 2026-01-05 14:26:40.037 [main] Log4jManager - User selected gender: Mr.
+[INFO ] 2026-01-05 14:26:40.104 [main] Log4jManager - User entered password
+[INFO ] 2026-01-05 14:26:40.182 [main] Log4jManager - User selected day: 15
+[INFO ] 2026-01-05 14:26:40.247 [main] Log4jManager - User selected month: January
+[INFO ] 2026-01-05 14:26:40.312 [main] Log4jManager - User selected year: 1990
+[INFO ] 2026-01-05 14:26:40.312 [main] Log4jManager - Account information filled successfully!
+[INFO ] 2026-01-05 14:26:40.370 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:26:40.697 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 14:26:40.697 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 14:26:40.762 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:26:41.090 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 14:26:41.090 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 14:26:41.156 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:26:41.507 [main] Log4jManager - Successfully clicked checkbox: newsletter
+[INFO ] 2026-01-05 14:26:41.508 [main] Log4jManager - User selected newsletter checkbox
+[INFO ] 2026-01-05 14:26:41.564 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:26:41.914 [main] Log4jManager - Successfully clicked checkbox: special offers
+[INFO ] 2026-01-05 14:26:41.914 [main] Log4jManager - User selected special offers checkbox
+[INFO ] 2026-01-05 14:26:41.989 [main] Log4jManager - User entered first name: John
+[INFO ] 2026-01-05 14:26:42.051 [main] Log4jManager - User entered last name: Doe
+[INFO ] 2026-01-05 14:26:42.111 [main] Log4jManager - User entered company: Tech Corp
+[INFO ] 2026-01-05 14:26:42.172 [main] Log4jManager - User entered address: 123 Main Street
+[INFO ] 2026-01-05 14:26:42.232 [main] Log4jManager - User entered address line 2: Suite 100
+[INFO ] 2026-01-05 14:26:42.296 [main] Log4jManager - User selected country: United States
+[INFO ] 2026-01-05 14:26:42.359 [main] Log4jManager - User entered state: California
+[INFO ] 2026-01-05 14:26:42.421 [main] Log4jManager - User entered city: San Francisco
+[INFO ] 2026-01-05 14:26:42.481 [main] Log4jManager - User entered zip code: 94102
+[INFO ] 2026-01-05 14:26:42.537 [main] Log4jManager - User entered mobile number: +1-415-555-0123
+[INFO ] 2026-01-05 14:26:42.537 [main] Log4jManager - Address details filled successfully!
+[INFO ] 2026-01-05 14:26:42.557 [main] Log4jManager - Scrolled to element with block:center, behavior:smooth
+[INFO ] 2026-01-05 14:26:43.793 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:26:43.793 [main] Log4jManager - User clicked Create Account button
+[INFO ] 2026-01-05 14:26:43.827 [main] Log4jManager - 'ACCOUNT CREATED!' message is visible successfully!
+[INFO ] 2026-01-05 14:26:46.059 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:26:46.059 [main] Log4jManager - User clicked Continue button
+[INFO ] 2026-01-05 14:26:46.092 [main] Log4jManager - 'Logged in as Johnaaaa' is visible successfully!
+[INFO ] 2026-01-05 14:26:46.112 [main] Log4jManager - Logged in as Johnaaaa matched with Johnaaaa
+[INFO ] 2026-01-05 14:26:46.391 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:26:46.391 [main] Log4jManager - User clicked Delete Account button
+[INFO ] 2026-01-05 14:26:46.414 [main] Log4jManager - 'ACCOUNT DELETED!' message is visible successfully!
+[INFO ] 2026-01-05 14:26:52.991 [main] Log4jManager - Clicked element using normal click
+[INFO ] 2026-01-05 14:26:52.992 [main] Log4jManager - User clicked Continue button

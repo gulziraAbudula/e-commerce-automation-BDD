@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages>
+
+    <SignUpLoginPage>
+        <newUserSignUp>//h2[text()='New User Signup!']</newUserSignUp>
+
+        <loginEmail>//input[@data-qa='login-email']</loginEmail>
+        <loginPwd>//input[@data-qa='login-password']</loginPwd>
+        <loginBtn>(//button[@data-qa='login-button'])</loginBtn>
+
+
+        <signupName>//input[@data-qa='signup-name']</signupName>
+        <signupEmail>//input[@data-qa='signup-email']</signupEmail>
+        <signupBtn>//button[@data-qa='signup-button']</signupBtn>
+        <emailExistMsg>//p[text()='Email Address already exist!']</emailExistMsg>
+    </SignUpLoginPage>
+
+
+</Pages>
