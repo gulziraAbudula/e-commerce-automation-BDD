@@ -16,9 +16,11 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 @ConfigurationParameter(key = "cucumber.filter.tags", value = "@RegressionUITest and not @Skip")
 @ConfigurationParameter(
         key = PLUGIN_PROPERTY_NAME,
-        value = "pretty, " +
-                "html:target/cucumber-reports/index.html, " +
-                "usage:target/cucumber-reports/usage.jsonx"
+        value =
+                "pretty, " +
+                        "html:target/cucumber-reports/index.html, " +
+                        "json:target/cucumber-reports/cucumber.json, " +
+                        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 )
 @ConfigurationParameter(key = EXECUTION_DRY_RUN_PROPERTY_NAME, value = "false")
 public class AuthRunner {

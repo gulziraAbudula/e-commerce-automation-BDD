@@ -96,10 +96,12 @@
         <!-- ============================================================ -->
         <!-- Reporting -->
         <!-- ============================================================ -->
+
+        <!-- Extent Reports with latest adapter -->
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
-            <version>${extentreports.version}</version>
+            <version>5.1.1</version>
         </dependency>
 
         <dependency>
@@ -204,6 +206,12 @@
             <groupId>dom4j</groupId>
             <artifactId>dom4j</artifactId>
             <version>1.6.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>tech.grasshopper</groupId>
+            <artifactId>extentreports-cucumber7-adapter</artifactId>
+            <version>1.14.0</version>
         </dependency>
 
     </dependencies>

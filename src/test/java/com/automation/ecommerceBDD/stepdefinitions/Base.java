@@ -3,9 +3,13 @@ package com.automation.ecommerceBDD.stepdefinitions;
 import com.automation.ecommerceBDD.utilities.dataRelated.XMLReaderUtil;
 import com.automation.ecommerceBDD.utilities.webActionRelated.*;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.WebDriver;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class Base {
 
@@ -57,6 +61,16 @@ public class Base {
         System.out.println(
                 "----------------------------------------------------------------------------------------------------------------------");
 
+    }
+
+    @AfterAll
+    public static void cleanup() {
+        try {
+            // Clean old extent reports if needed
+            Files.createDirectories(Paths.get("target/extentreports/"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     // Add getter methods for static utilities
